@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  height: 100vh;
+}
+.inner-container {
+  background-color: #f8fafc;
+  border-radius: 16px;
+  width: 96%;
+  padding: 20px;
+  max-width: 345px;
+}
+
+@media screen and (min-width: 768px) {
+  .inner-container {
+    padding-top: 44px;
+    padding-left: 64px;
+    padding-right: 64px;
+    max-width: 520px;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    text-align: left;
+    font-size: 30px;
+  }
+}
+.select-field {
+}
+
+.capital-select {
+  background-color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+  width: 100px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .select-field {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    width: 180px;
+  }
+}
+
+.option {
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 500;
+  color: #323f4b;
+}
+
+@media screen and (min-width: 768px) {
+  .option {
+    font-size: 15px;
+  }
+}
+
+.question {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #000000;
+  margin-left: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .question {
+    font-size: 15px;
+  }
+}
+.result {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .result {
+    font-family: 'Roboto';
+    font-size: 24px;
+  }
+}
